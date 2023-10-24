@@ -1,0 +1,29 @@
+{
+    "nombre": "Automata Acepta Al Menos UnUno",
+    "estados": ["C", "D"],
+    "alfabeto": ["0", "1"],
+    "estado_inicial": "C", 
+    "estados_finales": ["D"],
+    "transiciones": [
+        {
+            "estadoActual": "C",
+            "simbolo": "1",
+            "estadoSiguiente": "D"
+        },
+        {
+            "estadoActual": "C",
+            "simbolo": "0",
+            "estadoSiguiente": "C"
+        },
+        {
+            "estadoActual": "D",
+            "simbolo": "0",
+            "estadoSiguiente": "D"
+        },
+        {
+            "estadoActual": "D",
+            "simbolo": "1",
+            "estadoSiguiente": "D"
+        }
+    ]
+}

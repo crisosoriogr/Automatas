@@ -1,0 +1,30 @@
+{
+    "nombre": "Automata Acepta AlMenos Un Cero",
+    "estados": ["A", "B"],
+    "alfabeto": ["0", "1"],
+    "estado_inicial": "A",
+    "estados_finales": ["B"],
+    "transiciones": [
+      {
+        "estadoActual": "A",
+        "simbolo": "1",
+        "estadoSiguiente": "A"
+      },
+      {
+        "estadoActual": "A",
+        "simbolo": "0",
+        "estadoSiguiente": "B"
+      },
+      {
+        "estadoActual": "B",
+        "simbolo": "0",
+        "estadoSiguiente": "B"
+      },
+      {
+        "estadoActual": "B",
+        "simbolo": "1",
+        "estadoSiguiente": "B"
+      }
+    ]
+  }
+  
